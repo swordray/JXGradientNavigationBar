@@ -9,30 +9,17 @@
 
 Pod::Spec.new do |s|
   s.name             = "JXGradientNavigationBar"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JXGradientNavigationBar."
-  s.description      = <<-DESC
-                       An optional longer description of JXGradientNavigationBar
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JXGradientNavigationBar"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.version          = "0.1.1"
+  s.summary          = "Custom UINavigationBar subclass with gradient colors on iOS."
+  s.homepage         = "https://github.com/swordray/JXGradientNavigationBar"
   s.license          = 'MIT'
   s.author           = { "Jianqiu Xiao" => "swordray@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JXGradientNavigationBar.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/swordray/JXGradientNavigationBar.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'JXGradientNavigationBar' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'JXGradientNavigationBar/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
