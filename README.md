@@ -6,6 +6,10 @@ Custom UINavigationBar subclass with gradient colors on iOS.
 [![License](https://img.shields.io/cocoapods/l/JXGradientNavigationBar.svg?style=flat)](http://cocoapods.org/pods/JXGradientNavigationBar)
 [![Platform](https://img.shields.io/cocoapods/p/JXGradientNavigationBar.svg?style=flat)](http://cocoapods.org/pods/JXGradientNavigationBar)
 
+## Screen Shot
+
+![Screen Shot](JXGradientNavigationBarExample/ScreenShot.png)
+
 ## Requirements
 
 - iOS SDK 7.0 or later
