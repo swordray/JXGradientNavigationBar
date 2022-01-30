@@ -1,5 +1,5 @@
 PODS:
-  - JXGradientNavigationBar (0.1.1)
+  - JXGradientNavigationBar (0.1.2)
 
 DEPENDENCIES:
   - JXGradientNavigationBar (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JXGradientNavigationBar: b9e8e723d64098c94ad4a65af5646d5bbf083361
+  JXGradientNavigationBar: b752fbc1912d7abbbb1e427bb2d24fc0284511b0
 
-COCOAPODS: 0.37.2
+PODFILE CHECKSUM: 18459bb526b6a56b965939727dcc9a716c20a11a
+
+COCOAPODS: 1.11.2

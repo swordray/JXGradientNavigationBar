@@ -9,10 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "JXGradientNavigationBar"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Custom UINavigationBar subclass with gradient colors on iOS."
-  s.homepage         = "https://github.com/swordray/JXGradientNavigationBar"
-  s.screenshots      = "github.com/swordray/JXGradientNavigationBar/raw/#{s.version.to_s}/JXGradientNavigationBarExample/ScreenShot.png"
+  s.homepage         = "https://bailushuyuan.org"
+  s.screenshots      = "https://github.com/swordray/JXGradientNavigationBar/raw/#{s.version.to_s}/JXGradientNavigationBarExample/ScreenShot.png"
   s.license          = 'MIT'
   s.author           = { "Jianqiu Xiao" => "swordray@gmail.com" }
   s.source           = { :git => "https://github.com/swordray/JXGradientNavigationBar.git", :tag => s.version.to_s }

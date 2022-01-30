@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2581FAE878F2AD1BDF937D8E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 082926D4F5476BB56AA5425E /* libPods.a */; };
+		0A6E94A155CF0FA238F97DD0 /* libPods-JXGradientNavigationBarExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4FE2342FAF981C22328ECF /* libPods-JXGradientNavigationBarExample.a */; };
 		B2FF9CD51B4F675D00EF5716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF9CD41B4F675D00EF5716 /* main.m */; };
 		B2FF9CD81B4F675D00EF5716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF9CD71B4F675D00EF5716 /* AppDelegate.m */; };
 		B2FF9CDB1B4F675D00EF5716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FF9CDA1B4F675D00EF5716 /* ViewController.m */; };
@@ -26,9 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082926D4F5476BB56AA5425E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		160C4EFCE9DD42DD09997830 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		7BCBAC3739DF1BF6D578894F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		187F268A0805C5CAADB07C03 /* Pods-JXGradientNavigationBarExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXGradientNavigationBarExample.release.xcconfig"; path = "Target Support Files/Pods-JXGradientNavigationBarExample/Pods-JXGradientNavigationBarExample.release.xcconfig"; sourceTree = "<group>"; };
+		3C7FA48BE3815B7104D4EB4A /* Pods-JXGradientNavigationBarExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXGradientNavigationBarExample.debug.xcconfig"; path = "Target Support Files/Pods-JXGradientNavigationBarExample/Pods-JXGradientNavigationBarExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4FE2342FAF981C22328ECF /* libPods-JXGradientNavigationBarExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXGradientNavigationBarExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FF9CCF1B4F675D00EF5716 /* JXGradientNavigationBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXGradientNavigationBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FF9CD31B4F675D00EF5716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2FF9CD41B4F675D00EF5716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2581FAE878F2AD1BDF937D8E /* libPods.a in Frameworks */,
+				0A6E94A155CF0FA238F97DD0 /* libPods-JXGradientNavigationBarExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,19 +61,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D5F9AE5E96523C61AF67031 /* Pods */ = {
+		406ACE26F5DBDBEF6CCCAB75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				160C4EFCE9DD42DD09997830 /* Pods.debug.xcconfig */,
-				7BCBAC3739DF1BF6D578894F /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		93DCB852EBCB43E8431DF8A5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				082926D4F5476BB56AA5425E /* libPods.a */,
+				4D4FE2342FAF981C22328ECF /* libPods-JXGradientNavigationBarExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,8 +75,8 @@
 				B2FF9CD11B4F675D00EF5716 /* JXGradientNavigationBarExample */,
 				B2FF9CEB1B4F675E00EF5716 /* JXGradientNavigationBarExampleTests */,
 				B2FF9CD01B4F675D00EF5716 /* Products */,
-				1D5F9AE5E96523C61AF67031 /* Pods */,
-				93DCB852EBCB43E8431DF8A5 /* Frameworks */,
+				E3BE8732A47D3065176638DA /* Pods */,
+				406ACE26F5DBDBEF6CCCAB75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +128,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E3BE8732A47D3065176638DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C7FA48BE3815B7104D4EB4A /* Pods-JXGradientNavigationBarExample.debug.xcconfig */,
+				187F268A0805C5CAADB07C03 /* Pods-JXGradientNavigationBarExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,11 +145,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FF9CF21B4F675E00EF5716 /* Build configuration list for PBXNativeTarget "JXGradientNavigationBarExample" */;
 			buildPhases = (
-				8DB8D978A4FEFD946515AD65 /* Check Pods Manifest.lock */,
+				86937A987C5DB9688046AF41 /* [CP] Check Pods Manifest.lock */,
 				B2FF9CCB1B4F675D00EF5716 /* Sources */,
 				B2FF9CCC1B4F675D00EF5716 /* Frameworks */,
 				B2FF9CCD1B4F675D00EF5716 /* Resources */,
-				891C10ECDE0AC528DC54217C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,34 +233,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		891C10ECDE0AC528DC54217C /* Copy Pods Resources */ = {
+		86937A987C5DB9688046AF41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXGradientNavigationBarExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8DB8D978A4FEFD946515AD65 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -379,7 +371,7 @@
 		};
 		B2FF9CF31B4F675E00EF5716 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 160C4EFCE9DD42DD09997830 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 3C7FA48BE3815B7104D4EB4A /* Pods-JXGradientNavigationBarExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -392,7 +384,7 @@
 		};
 		B2FF9CF41B4F675E00EF5716 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BCBAC3739DF1BF6D578894F /* Pods.release.xcconfig */;
+			baseConfigurationReference = 187F268A0805C5CAADB07C03 /* Pods-JXGradientNavigationBarExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
